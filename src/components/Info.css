@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 695px;
+}
+
+.boxOne{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(232, 216, 232);
+    height: 50%;
+    width: 20%;
+    gap: 10px;
+    padding: 20px;
+}
+.myInput{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 20px;
+}
